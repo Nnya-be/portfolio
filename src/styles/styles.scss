@@ -1,0 +1,30 @@
+:root{
+    --color-backgroud: #dbdad6;
+    --color-main-text : #EEEDEB;
+    --color-main: #E0CCBE;
+    --color-secondary: #747264;
+    --color-secondary-container: #3C3633;
+    --color-text: #272424;
+    --color-black: #0d0d0e;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    background-color: var(--color-backgroud);
+    color: var(--color-text);
+    
+}
+body {
+    font-size: 1.6em;
+    font-family: 'Ubuntu',sans-serif;
+  
+}
+
+@import "./navigation";
+

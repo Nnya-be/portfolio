@@ -1,0 +1,41 @@
+.banner{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 5em;
+    height: 100vh;
+    padding: 3em 2em 2em 4em;
+    justify-content: center;
+    // align-items: center;
+
+    &-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        // justify-content: space-around;
+        align-items: start;
+        // padding: 2em 4em;
+        &__heading{
+            font-size: 4em;
+            margin-bottom: .6em;
+        }
+        &__text{
+            font-size: 1.2em;
+            word-spacing: .4em;
+            margin-bottom: 3em;
+        }
+    }
+
+    &-display{
+        position: relative;
+        &__profile{
+            position: absolute;
+            // width: 9em;
+        }
+
+        &__blob{
+            // width: 8em;
+            position: absolute;
+            z-index: -1;
+        }
+    }
+}
