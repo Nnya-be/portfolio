@@ -29,7 +29,7 @@ export const Navigation = () => {
           ))}
         </ul>
       </nav>
-      <NavButton></NavButton>
+      <NavButton value='dark'></NavButton>
     </div>
   );
 };

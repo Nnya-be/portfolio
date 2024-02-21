@@ -17,7 +17,7 @@ function Banner() {
           trends, I contribute a passion for excellence to drive project
           success.
         </p>
-        <NavButton></NavButton>
+        <NavButton value='dark'></NavButton>
       </div>
       <div className="banner-display">
         <img alt='Profile picture' src={pic} className="banner-display__profile"></img>
