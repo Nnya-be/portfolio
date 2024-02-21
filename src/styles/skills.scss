@@ -1,0 +1,37 @@
+.skills{
+    background-color: var(--color-secondary);
+    // height: min-content;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 1em;
+    padding: 8em 4em 4em 4em;
+    transform: skewY(4deg);
+    margin-top: 8em;
+    height: max-content;
+    // justify-content: center;
+    // align-items: center;
+
+    &-cards{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        grid-gap: 2em;
+        transform: skewY(-4deg);
+    }
+    &-info{
+        transform: skewY(-4deg);
+        padding: 0em 4em 2em 4em;
+        display: flex;
+        flex-direction: column;
+        // justify-content: space-around;
+        align-items: start;
+        &__text{
+            text-align: justify;
+            color:var(--color-background);
+            word-spacing: .2em;
+            // line-height: ;
+            padding-bottom: 3rem;
+            margin-bottom: 2em;
+        }
+    }
+}

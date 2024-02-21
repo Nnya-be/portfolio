@@ -49,3 +49,12 @@
     }
   }
 }
+
+.dark-button{
+  background-color: var(--color-secondary);
+  color: var(--color-secondary-container);
+}
+.light-button{
+  background-color: var(--color-main);
+  color: var(--color-secondary);
+}
