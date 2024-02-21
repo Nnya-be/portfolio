@@ -6,7 +6,7 @@ import Home from "./pages/Home";
 import Skills from "./components/Skills";
 function App() {
   return (
-  <div className="App" class="bg-red">
+  <div className="App">
         <Navigation></Navigation>
         <Home></Home>
         <Skills></Skills>
