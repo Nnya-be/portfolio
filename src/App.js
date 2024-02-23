@@ -6,7 +6,7 @@ import Home from "./pages/Home";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import { Testimonials } from "./components/Testimonials";
-
+import Footer from "./components/Footer";
 function App() {
   return (
     <div className="App">
@@ -15,6 +15,7 @@ function App() {
       <Skills></Skills>
       <Projects></Projects>
       <Testimonials></Testimonials>
+      <Footer></Footer>
     </div>
   );
 }

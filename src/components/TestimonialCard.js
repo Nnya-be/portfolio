@@ -1,16 +1,16 @@
 import React from 'react'
 
 const TestimonialCard = (props) => {
-    console.log(props.value);
+    const details = props.value;
   return (
     <div style={{
         color:'white',
-        height:'20em',
+        height:'24em',
         width:'18em',
         display:'flex',
         flexDirection:'column',
         alignItems:"left",
-        // justifyContent:'space-between'
+        justifyContent:'space-between'
     }}>
         <span style={{
             fontSize:'5em',
@@ -22,7 +22,7 @@ const TestimonialCard = (props) => {
             textAlign:"start",
             padding: '0em 0em 1.5em 0em'
         }}>
-        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in don't look slightly believable. 
+        {details.body} 
         </p>
         <div style={{
             display:'flex',
@@ -34,11 +34,11 @@ const TestimonialCard = (props) => {
                 fontSize:'1.4em',
                 textAlign:'start'
             }}
-            >Precious Amoateng</span>
+            >{details.name}</span>
             <span style={{
                 textAlign:'start'
             }}
-            >Shoe Shine</span>
+            >{details.role}</span>
         </div>
     </div>
   )
