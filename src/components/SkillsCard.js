@@ -6,7 +6,7 @@ import icon from '../logo.svg'
 
 function SkillsCard(props) {
     const info = props.value;
-    console.log(info)
+    // console.log(info)
   return (
     <div className='skills-card' style={{
         backgroundColor:'var(--color-main)',
