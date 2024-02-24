@@ -12,7 +12,7 @@ const testimonials = [
   {
     id: '02',
     name: "Brady",
-    body: "Solomon is a chronic womanizer. He is a fantastic friend and a coworker. When I was finding it difficult to cope with work, he was willing to assist me. ",
+    body: "Solomon is a chronic leaner. He is a fantastic friend and a coworker. When I was finding it difficult to cope with work, he was willing to assist me. ",
     role: "WebApp Developer",
   },
   {

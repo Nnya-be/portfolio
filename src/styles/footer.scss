@@ -1,0 +1,54 @@
+.footer{
+
+    background-color: red;
+    height: 85vh;
+    padding :8em 4em 0em 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    &-info{
+        display: flex;
+        width: 70%;
+        justify-content: space-between;
+        justify-self: center;
+        align-items: start;
+        text-align: justify;
+        margin-bottom: 5em;
+        &__description{
+            width: 20em;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        &__links{
+
+        }
+
+        &__contacts{
+
+        }
+    }
+
+    &-copyright{
+        justify-self: end;
+
+    }
+
+    
+}
+.links{
+    text-decoration: none;
+    color: var(--color-text);
+
+    &::marker{
+        display: none;
+        width: 0em;
+        visibility: hidden;
+    }
+}
+
+ul{
+    list-style: none;
+}
